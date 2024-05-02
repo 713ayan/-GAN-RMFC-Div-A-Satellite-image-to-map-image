@@ -13,11 +13,17 @@ https://drive.google.com/file/d/1mhfFZmsNt-jB-xvDDCYmS89IlXYFWxjt/view?usp=drive
 The hyper-parameter values used for training the Sat2Map model are as follows:
 
 Batch size: 1
+
 Input and Output image size: 256 x 256
+
 Learning rate: 0.0002
+
 Momentum: [β1, β2] = [0.5, 0.999]
+
 λ_L1 = 100
+
 Ideas and Intuition of cGAN (conditional GAN)
+
 Conditional GAN solves the problem of controlling the output of the Generator by taking both a random noise z and the input image x to produce an output image G(z|x) that looks realistic and corresponds to x.
 
 # Generator Architecture - U-Net
