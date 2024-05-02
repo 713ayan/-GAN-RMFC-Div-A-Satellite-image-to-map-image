@@ -2,10 +2,12 @@
 This repository contains a PyTorch implementation of the Pix2Pix framework from scratch, aimed at training a U-Net with a Generative Adversarial Network (GAN) for translating Satellite Imagery to an equivalent Map representation.
 
 # Trained Generator and Discriminator
-You can download the trained weights for the Sat2Map Generator and Discriminator from this link.
+You can download the trained weights for the Sat2Map Generator and Discriminator from this link
+https://drive.google.com/file/d/1fx4H4rW5h1ZvASzdVjBeJzoI_-KSLOUo/view?usp=drive_link
 
 # Dataset
 The Sat2Map Dataset used for training can be downloaded from this link.
+https://drive.google.com/file/d/1mhfFZmsNt-jB-xvDDCYmS89IlXYFWxjt/view?usp=drive_link
 
 # Hyper-parameters
 The hyper-parameter values used for training the Sat2Map model are as follows:
