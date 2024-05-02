@@ -28,6 +28,7 @@ Conditional GAN solves the problem of controlling the output of the Generator by
 
 # Generator Architecture - U-Net
 The Generator architecture is based on the U-Net, which is an Encoder-Decoder with skip connections between layers. The Encoder extracts core features of the image, while the Decoder maps those features back to a full-size image.
+![image](https://github.com/kartikagg05/-GAN-RMFC-Div-A-Satellite-image-to-map-image/assets/125241420/de93b45e-f8fa-4091-ac32-d63c6fd46fae)
 
 # Discriminator Architecture - Convolutional Neural Network
 The Discriminator in Pix2Pix is a binary Convolutional Neural Network that takes both the examined image y and the conditional image x as inputs.
@@ -37,7 +38,9 @@ The Objective for the training process includes GAN Loss and L1 Loss, which are 
 
 # Results
 The trained Generator successfully learned to capture main structures in satellite imagery and map those structures to an encoded vector, producing a map representation as output.
+Satellite Image(Input)
 ![image](https://github.com/kartikagg05/gan_satellite-image-to-map-image/assets/112509448/b21e3f31-d98d-41f0-a542-183aae1c4d76)
+Map Image (Output)
 ![image](https://github.com/kartikagg05/gan_satellite-image-to-map-image/assets/112509448/f2d3fe95-bde3-444b-b470-b763c6d4591f)
 
 
